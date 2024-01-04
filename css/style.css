@@ -1314,7 +1314,7 @@ section {
   border: 1px solid #0ef;
 }
 
-.contact form .input-box _error {
+.contact form .input-box  {
   border: 1px solid red;
 }
 
