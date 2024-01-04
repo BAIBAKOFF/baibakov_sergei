@@ -30,6 +30,8 @@ body {
 
 section {
   min-height: 100vh;
+  padding: 56px 0;
+  /*margin: 56px 0;*/
 }
 
 /* MEDIA HEADER and HOME --------------------------------*/
@@ -133,6 +135,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 54px;
   }
 
   .cv_btn {
@@ -446,7 +449,7 @@ section {
   }
   .header__menu li {
     list-style: none;
-    margin: 0px 0px 0px 36px;
+    margin: 0 0 0 36px;
     color: #000;
     font-size: 16px;
     text-transform: uppercase;
@@ -462,9 +465,7 @@ section {
       display: block;
       position: absolute;
       top: 55px;
-      left: 0;
       background: rgb(245, 246, 246);
-      box-shadow: #ccc;
       width: 100%;
       box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
       transition: all 0.4s ease;
@@ -478,7 +479,7 @@ section {
       left: 0;
     }
     .header__menu li {
-      margin: 40px 0px 40px 33px;
+      margin: 40px 0 40px 33px;
       font-size: 14px;
     }
     .menu-burger__header {
@@ -545,7 +546,7 @@ section {
     }
 
     .menu a:hover {
-      box-shadow: 0px 0px 10px 5px rgb(0, 183, 255);
+      box-shadow: 0 0 10px 5px rgb(0, 183, 255);
       background: #0ef;
     }
   }
@@ -601,7 +602,7 @@ section {
 }
 
 .soc_btn a svg:hover {
-  box-shadow: 0px 0px 10px 5px rgb(0, 183, 255);
+  box-shadow: 0 0 10px 5px rgb(0, 183, 255);
 }
 
 .cv a {
@@ -609,7 +610,7 @@ section {
 }
 
 .cv a:hover {
-  box-shadow: 0px 0px 5px 5px rgb(0, 183, 255);
+  box-shadow: 0 0 5px 5px rgb(0, 183, 255);
 }
 
 .home_photo img {
@@ -618,7 +619,7 @@ section {
 }
 
 .home_photo img:hover {
-  box-shadow: 0px 0px 30px 0px rgb(0, 183, 255);
+  box-shadow: 0 0 30px 0 rgb(0, 183, 255);
 }
 
 .cv_btn {
@@ -909,7 +910,7 @@ section {
 
 .portfolio_item img {
   object-fit: cover;
-  width: 400.6px;
+  width: 401px;
   height: 280px;
 
   border-radius: 40px;
@@ -935,7 +936,7 @@ section {
   position: absolute;
   overflow: hidden;
   bottom: 7px;
-  left: 6.5px;
+  left: 7px;
 
   border-radius: 50px;
 }
@@ -977,7 +978,7 @@ section {
 }
 
 .view-first img {
-  transition: all 0.2 linear;
+  transition: all 0.2s linear;
 }
 
 .view-first .mask {
@@ -1048,7 +1049,7 @@ section {
   .view .mask {
     width: 410px;
     left: 3.5px;
-    padding: 90px 0px 0 0px;
+    padding: 90px 0 0 0;
   }
 
   .portfolio_work .item .mask h2 {
@@ -1072,7 +1073,7 @@ section {
   .view .mask {
     width: 410px;
     left: 3.5px;
-    padding: 90px 0px 0 0px;
+    padding: 90px 0 0 0;
   }
 }
 
@@ -1096,14 +1097,14 @@ section {
   .view .mask {
     width: 760px;
     left: 3.5px;
-    padding: 50px 0px 0 0px;
+    padding: 50px 0 0 0;
   }
 }
 
 @media (max-width: 768px) {
   .view .mask {
     width: 710px;
-    padding: 50px 0px 0 0px;
+    padding: 50px 0 0 0;
   }
   .portfolio_item img {
     width: 700px;
@@ -1129,7 +1130,7 @@ section {
   .view .mask {
     width: 660px;
     left: 3.5px;
-    padding: 50px 0px 0 0px;
+    padding: 50px 0 0 0;
   }
 }
 
@@ -1141,7 +1142,7 @@ section {
   .view .mask {
     width: 590px;
     left: 3.5px;
-    padding: 40px 0px 0 0px;
+    padding: 40px 0 0 0;
   }
 }
 
@@ -1153,7 +1154,7 @@ section {
   .view .mask {
     width: 560px;
     left: 3.5px;
-    padding: 40px 0px 0 0px;
+    padding: 40px 0 0 0;
   }
 }
 
@@ -1165,7 +1166,7 @@ section {
   .view .mask {
     width: 490px;
     left: 3.5px;
-    padding: 40px 0px 0 0px;
+    padding: 40px 0 0 0;
   }
 }
 
@@ -1177,7 +1178,7 @@ section {
   .view .mask {
     width: 460px;
     left: 3.5px;
-    padding: 40px 0px 0 0px;
+    padding: 40px 0 0 0;
   }
 }
 
@@ -1189,11 +1190,10 @@ section {
   .view .mask {
     width: 410px;
     left: 3.5px;
-    padding: 10px 0px 0 0px;
+    padding: 10px 0 0 0;
   }
 
   .view h2 {
-    padding-top: 20px;
     font-size: 30px;
     padding-top: 60px;
   }
@@ -1211,11 +1211,10 @@ section {
   .view .mask {
     width: 380px;
     left: 3.5px;
-    padding: 10px 0px 0 0px;
+    padding: 10px 0 0 0;
   }
 
   .view h2 {
-    padding-top: 20px;
     font-size: 30px;
     padding-top: 60px;
   }
@@ -1237,7 +1236,7 @@ section {
   .view .mask {
     width: 330px;
     left: 3.5px;
-    padding: 20px 0px 0 0px;
+    padding: 20px 0 0 0;
   }
 
   .view h2 {
@@ -1258,7 +1257,7 @@ section {
   .view .mask {
     width: 280px;
     left: 3.5px;
-    padding: 20px 0px 0 0px;
+    padding: 20px 0 0 0;
   }
 
   .portfolio_title h1 {
@@ -1338,10 +1337,7 @@ section {
 }
 
 .title_contact h1 {
-  /* background-color: #0000007a;
-  border-radius: 30px;
-  padding: 10px; */
-  text-shadow: 0px 5px 20px #0ef;
+  text-shadow: 0 5px 20px #0ef;
   margin-top: 48px;
 }
 .contact_title h1 {
@@ -1357,7 +1353,6 @@ section {
 }
 
 .btn {
-  color: #000;
   background-color: #0ef;
   color: #1f242d;
   border-radius: 30px;
@@ -1368,7 +1363,7 @@ section {
 }
 
 .btn:hover {
-  box-shadow: 0px 0px 10px 5px rgb(0, 183, 255);
+  box-shadow: 0 0 10px 5px rgb(0, 183, 255);
 }
 
 /* MEDIA START--------------------------------*/
