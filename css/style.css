@@ -1061,13 +1061,13 @@ section {
   }
 }
 
-/* @media (min-width: 1352px) {
+ @media (min-width: 1352px) {
   .view .mask {
     width: 410px;
     left: 3.5px;
     padding: 90px 0px 0 0px;
   }
-} */
+}
 
 @media (max-width: 1351px) {
   .view .mask {
@@ -1314,9 +1314,6 @@ section {
   border: 1px solid #0ef;
 }
 
-.contact form .input-box  {
-  border: 1px solid red;
-}
 
 .contact form .input-box input {
   width: 48%;
